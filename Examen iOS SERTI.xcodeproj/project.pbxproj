@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A27F83AC14BFD935B396D6D /* Pods_Examen_iOS_SERTI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792CF04292611FDC4DDC37B4 /* Pods_Examen_iOS_SERTI.framework */; };
+		8452E92A28ABF65700483F87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8452E92928ABF65700483F87 /* Alamofire */; };
+		8452E92C28ABF69E00483F87 /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452E92B28ABF69E00483F87 /* NetworkingProvider.swift */; };
+		8452E93028ABF94F00483F87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452E92F28ABF94F00483F87 /* User.swift */; };
+		8452E93228ABFADF00483F87 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452E93128ABFADF00483F87 /* Register.swift */; };
+		845C6D1128AAD9DB004F5F86 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C6D1028AAD9DB004F5F86 /* RegisterController.swift */; };
+		845C6D1428AB0558004F5F86 /* MyCustomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C6D1228AB0558004F5F86 /* MyCustomeTableViewCell.swift */; };
+		845C6D1528AB0558004F5F86 /* MyCustomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845C6D1328AB0558004F5F86 /* MyCustomeTableViewCell.xib */; };
+		845C6D1728AB0CC0004F5F86 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C6D1628AB0CC0004F5F86 /* TableViewController.swift */; };
+		845C6D1928AB2E07004F5F86 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845C6D1828AB2E07004F5F86 /* UserViewController.swift */; };
+		849A0AFD28AC59140005CB38 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 849A0AFC28AC59140005CB38 /* Kingfisher */; };
 		84D5A98728A9F26F00B01229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5A98628A9F26F00B01229 /* AppDelegate.swift */; };
 		84D5A98928A9F26F00B01229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5A98828A9F26F00B01229 /* SceneDelegate.swift */; };
 		84D5A98B28A9F26F00B01229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5A98A28A9F26F00B01229 /* ViewController.swift */; };
@@ -17,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		792CF04292611FDC4DDC37B4 /* Pods_Examen_iOS_SERTI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Examen_iOS_SERTI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452E92B28ABF69E00483F87 /* NetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		8452E92F28ABF94F00483F87 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8452E93128ABFADF00483F87 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		845C6D1028AAD9DB004F5F86 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		845C6D1228AB0558004F5F86 /* MyCustomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomeTableViewCell.swift; sourceTree = "<group>"; };
+		845C6D1328AB0558004F5F86 /* MyCustomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomeTableViewCell.xib; sourceTree = "<group>"; };
+		845C6D1628AB0CC0004F5F86 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		845C6D1828AB2E07004F5F86 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		84D5A98328A9F26F00B01229 /* Examen iOS SERTI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Examen iOS SERTI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D5A98628A9F26F00B01229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D5A98828A9F26F00B01229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +46,8 @@
 		84D5A99228A9F27700B01229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D5A99528A9F27700B01229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D5A99728A9F27700B01229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA17D91799A186036663ECE4 /* Pods-Examen iOS SERTI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Examen iOS SERTI.debug.xcconfig"; path = "Target Support Files/Pods-Examen iOS SERTI/Pods-Examen iOS SERTI.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8F1ACB50D361BEC42CC98B /* Pods-Examen iOS SERTI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Examen iOS SERTI.release.xcconfig"; path = "Target Support Files/Pods-Examen iOS SERTI/Pods-Examen iOS SERTI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849A0AFD28AC59140005CB38 /* Kingfisher in Frameworks */,
+				2A27F83AC14BFD935B396D6D /* Pods_Examen_iOS_SERTI.framework in Frameworks */,
+				8452E92A28ABF65700483F87 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3468F81A913AF4D28E18FEA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA17D91799A186036663ECE4 /* Pods-Examen iOS SERTI.debug.xcconfig */,
+				FF8F1ACB50D361BEC42CC98B /* Pods-Examen iOS SERTI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8452E92D28ABF90E00483F87 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8452E92E28ABF92E00483F87 /* Data */,
+				8452E92B28ABF69E00483F87 /* NetworkingProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8452E92E28ABF92E00483F87 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8452E92F28ABF94F00483F87 /* User.swift */,
+				8452E93128ABFADF00483F87 /* Register.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		84D5A97A28A9F26F00B01229 = {
 			isa = PBXGroup;
 			children = (
 				84D5A98528A9F26F00B01229 /* Examen iOS SERTI */,
 				84D5A98428A9F26F00B01229 /* Products */,
+				3468F81A913AF4D28E18FEA6 /* Pods */,
+				CCE96C5F4304CFB057EFC899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +120,22 @@
 				84D5A99428A9F27700B01229 /* LaunchScreen.storyboard */,
 				84D5A99728A9F27700B01229 /* Info.plist */,
 				84D5A98F28A9F27000B01229 /* Examen_iOS_SERTI.xcdatamodeld */,
+				845C6D1028AAD9DB004F5F86 /* RegisterController.swift */,
+				845C6D1228AB0558004F5F86 /* MyCustomeTableViewCell.swift */,
+				845C6D1328AB0558004F5F86 /* MyCustomeTableViewCell.xib */,
+				845C6D1628AB0CC0004F5F86 /* TableViewController.swift */,
+				845C6D1828AB2E07004F5F86 /* UserViewController.swift */,
+				8452E92D28ABF90E00483F87 /* Network */,
 			);
 			path = "Examen iOS SERTI";
+			sourceTree = "<group>";
+		};
+		CCE96C5F4304CFB057EFC899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				792CF04292611FDC4DDC37B4 /* Pods_Examen_iOS_SERTI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +145,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D5A99A28A9F27700B01229 /* Build configuration list for PBXNativeTarget "Examen iOS SERTI" */;
 			buildPhases = (
+				C008F1F7834356806262595D /* [CP] Check Pods Manifest.lock */,
 				84D5A97F28A9F26F00B01229 /* Sources */,
 				84D5A98028A9F26F00B01229 /* Frameworks */,
 				84D5A98128A9F26F00B01229 /* Resources */,
+				72676232CE4194CAC8700AA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Examen iOS SERTI";
+			packageProductDependencies = (
+				8452E92928ABF65700483F87 /* Alamofire */,
+				849A0AFC28AC59140005CB38 /* Kingfisher */,
+			);
 			productName = "Examen iOS SERTI";
 			productReference = 84D5A98328A9F26F00B01229 /* Examen iOS SERTI.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +188,10 @@
 				Base,
 			);
 			mainGroup = 84D5A97A28A9F26F00B01229;
+			packageReferences = (
+				8452E92828ABF65700483F87 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				849A0AFB28AC59140005CB38 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 84D5A98428A9F26F00B01229 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845C6D1528AB0558004F5F86 /* MyCustomeTableViewCell.xib in Resources */,
 				84D5A99628A9F27700B01229 /* LaunchScreen.storyboard in Resources */,
 				84D5A99328A9F27700B01229 /* Assets.xcassets in Resources */,
 				84D5A98E28A9F26F00B01229 /* Main.storyboard in Resources */,
@@ -136,15 +215,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72676232CE4194CAC8700AA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Examen iOS SERTI/Pods-Examen iOS SERTI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Examen iOS SERTI/Pods-Examen iOS SERTI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Examen iOS SERTI/Pods-Examen iOS SERTI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C008F1F7834356806262595D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Examen iOS SERTI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D5A97F28A9F26F00B01229 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845C6D1428AB0558004F5F86 /* MyCustomeTableViewCell.swift in Sources */,
+				8452E93228ABFADF00483F87 /* Register.swift in Sources */,
+				845C6D1928AB2E07004F5F86 /* UserViewController.swift in Sources */,
+				845C6D1728AB0CC0004F5F86 /* TableViewController.swift in Sources */,
+				845C6D1128AAD9DB004F5F86 /* RegisterController.swift in Sources */,
 				84D5A98B28A9F26F00B01229 /* ViewController.swift in Sources */,
 				84D5A98728A9F26F00B01229 /* AppDelegate.swift in Sources */,
 				84D5A98928A9F26F00B01229 /* SceneDelegate.swift in Sources */,
 				84D5A99128A9F27000B01229 /* Examen_iOS_SERTI.xcdatamodeld in Sources */,
+				8452E93028ABF94F00483F87 /* User.swift in Sources */,
+				8452E92C28ABF69E00483F87 /* NetworkingProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +414,7 @@
 		};
 		84D5A99B28A9F27700B01229 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA17D91799A186036663ECE4 /* Pods-Examen iOS SERTI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +443,7 @@
 		};
 		84D5A99C28A9F27700B01229 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8F1ACB50D361BEC42CC98B /* Pods-Examen iOS SERTI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +492,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8452E92828ABF65700483F87 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		849A0AFB28AC59140005CB38 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8452E92928ABF65700483F87 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8452E92828ABF65700483F87 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		849A0AFC28AC59140005CB38 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849A0AFB28AC59140005CB38 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		84D5A98F28A9F27000B01229 /* Examen_iOS_SERTI.xcdatamodeld */ = {
